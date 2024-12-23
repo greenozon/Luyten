@@ -193,7 +193,7 @@ public class FileSaver {
 							writer.flush();
 						} catch (Exception e) {
 							label.setText("Cannot decompile file: " + entry.getName());
-							Luyten.showExceptionDialog("Unable to Decompile file!\nSkipping file...", e);
+							Luyten.showExceptionDialog("Unable to Decompile file!\nSkipping file..."+ entry.getName(), e);
 						} finally {
 							out.closeEntry();
 						}

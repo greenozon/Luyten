@@ -566,6 +566,8 @@ public class MainMenuBar extends JMenuBar {
 				pane.add(new JLabel("mbax, quitten, mstrobel,"));
 				pane.add(new JLabel("FisheyLP, and Syquel"));
 				pane.add(new JLabel(" "));
+				pane.add(new JLabel("Built by greenozon @4 May 2022"));
+				pane.add(new JLabel(" "));
 				pane.add(new JLabel("Powered By:"));
 				String procyon = "https://bitbucket.org/mstrobel/procyon";
 				link = new JLabel("<HTML><FONT color=\"#000099\"><U>" + procyon + "</U></FONT></HTML>");
@@ -579,7 +581,7 @@ public class MainMenuBar extends JMenuBar {
 				link.setCursor(new Cursor(Cursor.HAND_CURSOR));
 				link.addMouseListener(new LinkListener(rsyntax, link));
 				pane.add(link);
-				pane.add(new JLabel("Version: 3.0.2"));
+				pane.add(new JLabel("Version: 3.1.3"));
 				pane.add(new JLabel("(c) 2019 Robert Futrell"));
 				pane.add(new JLabel(" "));
 				JOptionPane.showMessageDialog(null, pane);
